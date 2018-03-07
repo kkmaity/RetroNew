@@ -1,0 +1,77 @@
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    
+    <PreferenceCategory
+            android:title="Date User:">
+
+        <EditTextPreference
+                android:key="edittext_preference"
+                android:title="user"
+                android:summary=""
+                android:dialogTitle="Introduceti IdUser:" />
+        <EditTextPreference
+                android:key="idmember"
+                android:title="Id Member"
+                android:summary=""
+                android:dialogTitle="Introduceti id member:" />
+        <EditTextPreference
+                android:key="idlocatie"
+                android:title="Locatie"
+                android:summary=""
+                android:dialogTitle="Introduceti id Locatie:" />
+        <EditTextPreference
+            android:key="mail"
+            android:title="Mail"
+            android:summary=""
+            android:dialogTitle="Introduceti mail:" />
+        <EditTextPreference
+            android:key="montator"
+            android:title="Montator"
+            android:summary=""
+            android:dialogTitle="Introduceti 1 pt montator:" />
+        <EditTextPreference
+            android:key="token"
+            android:title="Token"
+            android:summary=""
+            android:dialogTitle="Token" />
+        <EditTextPreference
+                android:key="server"
+                android:title="server"
+                android:summary=""
+                android:dialogTitle="Introduceti adresa server-ului:" />
+
+    </PreferenceCategory>
+    <PreferenceCategory
+            android:title="Date Facturare:">
+        <EditTextPreference
+                android:key="tva"
+                android:title="Cota TVA"
+                android:summary=""
+                android:dialogTitle="Introduceti Cota TVA:" />
+        <EditTextPreference
+                android:key="delegat"
+                android:title="Delegat"
+                android:summary=""
+                android:dialogTitle="Introduceti Numele Delegatului:" />
+        <EditTextPreference
+                android:key="ci"
+                android:title="ci"
+                android:summary=""
+                android:dialogTitle="Introduceti Nr Cartii de Identitate:" />
+        <EditTextPreference
+                android:key="seriaci"
+                android:title="Seria CI"
+                android:summary=""
+                android:dialogTitle="Introduceti Seria Cartii de Identitate:" />
+        <EditTextPreference
+                android:key="auto"
+                android:title="Auto"
+                android:summary=""
+                android:dialogTitle="Introduceti Nr Auto:" />
+
+
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

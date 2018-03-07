@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/barchart"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="BarChart"/>
+    <item
+        android:id="@+id/sign"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="SignIn"/>
+    <item
+        android:id="@+id/settings"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="setings"/>
+    <item
+        android:id="@+id/comenzi"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="comenzi"/>
+    <item
+        android:id="@+id/download"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="PDF Download"/>
+
+
+
+</menu>
