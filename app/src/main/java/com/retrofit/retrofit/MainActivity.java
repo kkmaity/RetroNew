@@ -221,7 +221,7 @@ public class MainActivity extends AppCompatActivity {
                 return true;
             case R.id.sign:
                 Intent intent1 = new Intent();
-                intent1.setClass(MainActivity.this, SignInActivity.class);
+                intent1.setClass(MainActivity.this, SignInNewActivity.class);
                 startActivityForResult(intent1, 0);
 
 

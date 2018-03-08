@@ -21,5 +21,6 @@ public interface MInterface {
     @GET("comenzipeperioada.php")
     Call<ArrayList<Order>> getComenziGraficPerioada(@Query("start") String start,
                                                       @Query("end") String end);
-
+    @GET("comenzi/test/androidproduse.php")
+    Call<ArrayList<Items>> getItems();
 }

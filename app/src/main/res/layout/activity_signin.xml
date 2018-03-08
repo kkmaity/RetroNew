@@ -28,6 +28,7 @@
         android:id="@+id/foto"
         android:layout_width="60dp"
         android:layout_height="60dp"
+        android:src="@mipmap/ic_launcher"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true" />
 

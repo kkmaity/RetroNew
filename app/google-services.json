@@ -1,0 +1,58 @@
+{
+  "project_info": {
+    "project_number": "540367285818",
+    "firebase_url": "https://floridaas-bba85.firebaseio.com",
+    "project_id": "floridaas-bba85",
+    "storage_bucket": "floridaas-bba85.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:540367285818:android:d3614a5805f2b14b",
+        "android_client_info": {
+          "package_name": "com.example.florida"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "540367285818-bm5onr3l8t4imc3ksmdktpfpk8en8795.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.florida",
+            "certificate_hash": "b1ea95c94bdb457879b23b05b3ea7a7f06b5d957"
+          }
+        },
+        {
+          "client_id": "540367285818-vfkibcupeelvkl17788qdha7002uebfo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.florida",
+            "certificate_hash": "795690795239645077cc801d390037bf204686b2"
+          }
+        },
+        {
+          "client_id": "540367285818-fpkaegb68o3qo55tcbd3i1fjohegitd6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACWm-Q5GaZCL_ExeR0qJ6hX1n9ydlJHLc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
